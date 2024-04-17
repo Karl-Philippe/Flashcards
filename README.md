@@ -1,27 +1,37 @@
-# Study_cards
+# Study Cards
 
-Requis:
-- Data: recto/verso cards (.png)
-- Three label data: 
-    - Learned (Appris)
-    - Well learned ()
-    - Partially learned (Partiellement appris)
-    - To be learned (A apprendre)
-    - A revoir
+## Windows Installation:
 
-- Upun a card is displayed:
-    1. Command to reveleal (and back)
-    2. Label the card (1, 2 or 3)
+```bash
+git clone
+cd Study_Cards
+python setup_env.py
+```
 
-Data upload
+## Run the App:
 
+```bash
+python app.py
+```
 
-30 min/10 min/5 min
+## Project Requirements:
 
-+ 1 categorie a reviser dans les 20 prochaines cartes (mettre dans la file d'attente)
+- **Data**: Front/back cards (.jpg)
+- Four label data: 
+    1. To revise (20 upcoming cards)
+    2. Partially learned
+    3. Learned
+    4. Mastered (Learned well 3 times consecutively)
 
+- Upon a card being displayed:
+    1. Command to reveal (and revert)
+    2. Label the card (1, 2, 3, or 4)
 
-1. A revoir tres prochainement (20 prochaines cartes)
-2. Partiellement su
-3. Bien su
-4. Maitrise (Bien su 3x de suite)
+## Data Upload
+- To be developed
+
+## Algorithm:
+- 30 min/10 min/5 min
+
+## To Revise:
+- To review within the upcoming 20 cards (put in the queue)
